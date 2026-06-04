@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "(gdb) Launch",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/bin/${workspaceFolderBasename}.exe",
+			"cwd": "${workspaceFolder}",
+			"internalConsoleOptions": "openOnSessionStart",
+			"preLaunchTask": "CMake: build"
+		}
+		
+	]
+}
